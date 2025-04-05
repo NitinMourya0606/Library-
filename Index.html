@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>eLibrary</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>eLibrary</h1>
+    <input type="text" id="searchInput" placeholder="Search books...">
+  </header>
+
+  <main>
+    <section id="book-list"></section>
+
+    <form id="addBookForm">
+      <h2>Add New Book</h2>
+      <input type="text" id="title" placeholder="Title" required />
+      <input type="text" id="author" placeholder="Author" required />
+      <button type="submit">Add Book</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
